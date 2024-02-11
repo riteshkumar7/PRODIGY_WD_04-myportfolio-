@@ -1,0 +1,41 @@
+.about {
+    position: relative;
+    background:linear-gradient( #8e9188 30%, rgb(192, 197, 195) 60%);
+}
+.img-container img{
+    width: 450px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 60px;
+    box-shadow: 0 0 5px  whitesmoke;
+    animation: rotateimg 10s infinite linear;
+}
+@keyframes rotateimg {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+.content-line p{
+    color:cornsilk;
+    padding: 170px 100px 230px 350px;
+}
+.para-line {
+    margin-left: 300px;
+    font-size: 18px;
+    font-family: 'Protest Riot', sans-serif;
+}
+.content-line h1{
+    color:seagreen;
+    text-shadow: 0 1px 0 #ccc, 
+    0 2px 0 #ccc,
+    0 6px 0 darkseagreen, 
+    0 20px 30px rgba(0, 0, 0, 0.5);
+    font-family: cursive;
+}

@@ -1,0 +1,77 @@
+.project {
+    background:linear-gradient( #d3cbcb 30%, rgb(218, 223, 206) 90%);
+    width: 1400px;
+    height: 850px;
+}
+.horizontal {
+    width: 100%;
+    height: 10px;
+    border: 0.1rem solid #d3cbcb;
+    box-shadow: 0 10px 8px black;
+}
+.projectimg {
+    width: 400px;
+    height: 300px;
+    margin-top: -80px;
+    position: relative;
+    animation: translation 10s infinite linear;
+}
+@keyframes translation {
+    0% { left: 0; }
+    50% { left: calc(60vw + 100px); }
+    100% { left: 0; }
+}
+.headline {
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.square-box {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.square-box1 img{
+    border: 1px solid black;
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+}
+.square-box2 img{
+    border: 1px solid black;
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+}
+.square-box3{
+    border: 1px solid black;
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+}
+.sbox img{
+    width: 350px;
+    height: 180px;
+}
+.square-box4{
+    border: 1px solid black;
+    width: 485px;
+    height: 245px;
+    padding: 10px;
+}
+.sbox1 img{
+    width: 450px;
+    height: 220px;
+}
+.square-box5{
+    border: 1px solid black;
+    width: 350px;
+    height: 200px;
+    padding: 10px;          
+}
+.square-box5 img{
+    width: 330px;
+    height: 180px;
+}

@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+.home {
+    position: relative;
+    perspective: 200px;
+    background:linear-gradient( #747171 30%, rgb(161, 186, 231) 90%);
+}
+
+.pic img{
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    position: absolute;
+    transform: rotateX(20deg);
+    margin-left: 120px;
+    margin-top: 80px;
+    box-shadow: 0 0 5px  whitesmoke;
+    
+}
+.content p{
+    color:cornsilk;
+    padding: 170px 100px 230px 350px;
+}
+.para{
+    margin-left: 300px;
+    font-size: 22px;
+    font-family: 'Protest Riot', sans-serif;
+}
+.content h1{
+    color:rgb(42, 34, 77);
+    text-shadow: 0 1px 0 #ccc, 
+    0 3px 0 #ccc,
+    0 4px 0 darkseagreen,
+    0 6px 0 darkseagreen, 
+    0 20px 30px rgba(0, 0, 0, 0.5);
+    font-family: cursive;
+}
+.cv{
+    background-color: snow;
+    font-size: 22px;
+    padding: 8px;
+    border: 0 solid gainsboro;
+    color:rgb(87, 40, 87);
+    font-family: 'Protest Riot', sans-serif;
+}
+.cv:active{
+    background-color:darkgrey;
+    font-size: 22px;
+    border: 0 solid gainsboro;
+    color:rgb(40, 68, 87);
+    font-family: 'Protest Riot', sans-serif;
+}
